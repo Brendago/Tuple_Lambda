@@ -1,0 +1,16 @@
+list_sodas=["Coke", "sprite", "fanta", "Cherry Coke", "orange Fanta", "dr Pepper"]
+
+print( list(filter(lambda x: x.upper().startswith("C"), list_sodas)) )
+
+
+
+
+#tup_sodas = ("coke", "sprite", "cherry")
+#new_tup_sodas = tuple(list_sodas)
+#print(new_tup_sodas)
+
+#new_list_sodas = list(tup_sodas)
+#print(new_list_sodas)
+
+
+#list_sodas.sort()
